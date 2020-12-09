@@ -124,6 +124,12 @@ header
 	margin-top: 30px;
 }
 
+.bouton_filtre:hover
+
+{
+	background-color: green;
+}
+
 .liste_bouton_filtre
 {
 	display: flex;
@@ -635,4 +641,8 @@ footer
 		padding-bottom: 0px;
 	}
 
+	.conteneur_activite
+	{
+		display: none;
+	}
 }
