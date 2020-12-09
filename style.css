@@ -418,14 +418,14 @@ aside
 
 .conteneur_detail_activite
 {
-	width: 50%;
+	width: 60%;
 	display: flex;
 	flex-direction: column;
 }
 
 .conteneur_detail_activite_bloc
 {
-	width: 50%;
+	width: 40%;
 	display: flex;
 	flex-direction: column;
 	padding-left: 30px;
@@ -451,7 +451,6 @@ aside
 	background-size: cover;
 	background-position: center;
 	height: 100%;
-	min-height: 200px;
 	border-top-left-radius: 10px;
 	border-top-right-radius: 10px ;
 	width: 100%;
@@ -471,7 +470,8 @@ aside
 {
 	height: 50%;
     display: flex;
-    flex-direction: column;
+	flex-direction: column;
+	justify-content: flex-end;
 }
 
 .carte_activite_petite
@@ -482,6 +482,7 @@ aside
 .image_activite_frioul
 {
 	background-image: url('images/activites/2_large/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg') ;
+	height: 60%;
 }
 
 .image_activite_calanques
@@ -569,6 +570,11 @@ footer
 	.image_populaire3
 	{
 		width: 50%;
+	}
+
+	.image_activite
+	{
+		min-height: 200px;
 	}
 }
 
