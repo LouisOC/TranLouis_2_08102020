@@ -245,7 +245,9 @@ article
 	padding: 5px;
 	line-height: 1.5em;
 	margin-bottom: 30px;
-    width: 25%;
+	width: 25%;
+	box-shadow: 5px 5px 10px grey;
+
 }
 
 .image_hebergement
@@ -358,13 +360,14 @@ aside
 .populaire 
 {
 	padding: 5px 5px 5px 5px;
-	border-radius: 10px ;
+	border-radius: 15px ;
     background-color : white;
     margin-left: 30px;
 	margin-right: 40px;
 	display: flex;
 	line-height: 2em;
 	margin-bottom: 30px;
+	box-shadow: 5px 5px 10px grey;
 }
 
 .image_populaire
@@ -411,8 +414,6 @@ aside
 	display: flex;
 	min-height: 500px;
 	margin-bottom: 50px;
-	padding-left: 35px;
-	padding-right: 35px;
 }
 
 .conteneur_detail_activite
@@ -427,6 +428,7 @@ aside
 	width: 50%;
 	display: flex;
 	flex-direction: column;
+	padding-left: 30px;
 }
 
 .activite 
@@ -440,6 +442,8 @@ aside
 {
 	display: flex;
 	width: 50%;
+	padding-left: 20px;
+	padding-right: 20px;
 }
 
 .image_activite
@@ -496,7 +500,7 @@ aside
 }
 .detail_activite 
 {
-	box-shadow: #F2F2F2 3px 3px 3px;
+	box-shadow: #F2F2F2 5px 5px 5px;
 	border-radius: 0px 0px 10px 10px;
 	padding-top: 10px;
 	padding-bottom: 10px;
@@ -551,10 +555,22 @@ footer
 	.liste_activite
 	{
 		width: 100%;
+		display: block;
 	}
 
+	.image_populaire
+	{
+		width: 50%;
+	}
+	.image_populaire2
+	{
+		width: 50%;
+	}
+	.image_populaire3
+	{
+		width: 50%;
+	}
 }
-
 
 @media (max-width: 1024px)
 
@@ -675,18 +691,25 @@ footer
 		margin-left: 20px;
 		padding-bottom: 0px;
 	}
-
 }
 
 @media (max-width: 800px)
 {
-	.liste_activite
+
+	.image_populaire
 	{
-		flex-direction: column;
-		align-items: center;
+		width: 35%;
 	}
 
-	.conteneur_detail_activite
+	.image_populaire2
+	{
+		width: 50%;
+	}
+
+	.image_populaire3
+	{
+		width: 40%;
+	}	.conteneur_detail_activite
 	{
 		width: 90%;
 		padding-bottom: 20px;
@@ -700,6 +723,7 @@ footer
 	.conteneur_detail_activite_bloc
 	{
 		width: 90%;
+		padding: 0;
 	}
 
 	.titre_activite
@@ -711,5 +735,10 @@ footer
 	{
 		padding-left: 0px;
 		padding-right: 0px;
+	}
+
+	.carte_activite_petite
+	{
+		margin-bottom: 0px;
 	}
 }
