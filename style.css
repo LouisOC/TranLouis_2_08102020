@@ -438,6 +438,18 @@ aside
 	width: 50%;
 }
 
+
+.image_activite
+{
+	background-size: cover;
+	background-position: center;
+	height: 100%;
+	min-height: 200px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px ;
+	width: 100%;
+}
+
 .image_activite_vieux_port
 {
 	background-image: url('images/activites/2_large/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg') ;
