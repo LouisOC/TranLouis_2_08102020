@@ -110,8 +110,6 @@ header
     border-radius: 0px 10px 10px 0px;
     padding: 10px;
 	font-weight: bold;
-	display: flex;
-	align-items: center;
 }
 
 #loupe_recherche
@@ -637,15 +635,27 @@ footer
 		padding-bottom: 10px;
 	}
 
+	.recherche
+
+	{
+		width: 100%;
+	}
+
 	.icone_map
 	{
-		min-width: 40%;
+		min-width: 10%;
+	}
+
+	.input_search
+	{
+		width: 80%;
 	}
 
 	.button_search
 	{
-		width: 40%;
+		width: 10%;
 		border-radius: 10px;
+		padding: 0px;
 	}
 
 	.bloc_recherche
