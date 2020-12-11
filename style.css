@@ -218,7 +218,7 @@ header
     padding-right: 20px;
 }
 
-article
+.conteneur_hebergement_habitation
 {
 	background-color: #F2F2F2;
 	width: 68%;
@@ -542,7 +542,7 @@ footer
 		border-radius: 0px;
 	}
 
-	article 
+	.conteneur_hebergement_habitation
 	{
 		min-width: 100%;
 		background-color: white;
@@ -577,6 +577,18 @@ footer
 	.image_activite
 	{
 		min-height: 200px;
+	}
+
+	.conteneur_detail_activite
+	{
+		width: 90%;
+		padding-bottom: 20px;
+	}
+
+	.conteneur_detail_activite_bloc
+	{
+		width: 90%;
+		padding: 0;
 	}
 }
 
@@ -682,7 +694,7 @@ footer
 		margin-bottom: 20px;
 	}
 
-	article
+	.conteneur_hebergement_habitation
 	{
 		min-width: 100%;
 		background-color: white;
@@ -706,7 +718,7 @@ footer
 
 	.image_populaire
 	{
-		width: 35%;
+		width: 50%;
 	}
 
 	.image_populaire2
@@ -716,22 +728,12 @@ footer
 
 	.image_populaire3
 	{
-		width: 40%;
-	}	.conteneur_detail_activite
-	{
-		width: 90%;
-		padding-bottom: 20px;
-	}
+		width: 50%;
+	}	
 
 	.carte_activite
 	{
 		padding-bottom: 20px;
-	}
-
-	.conteneur_detail_activite_bloc
-	{
-		width: 90%;
-		padding: 0;
 	}
 
 	.titre_activite
@@ -748,5 +750,24 @@ footer
 	.carte_activite_petite
 	{
 		margin-bottom: 0px;
+	}
+	
+}
+
+@media (max-width: 440px)
+{
+	.image_populaire
+	{
+		width: 35%;
+	}
+
+	.image_populaire2
+	{
+		width: 50%;
+	}
+
+	.image_populaire3
+	{
+		width: 40%;
 	}
 }
