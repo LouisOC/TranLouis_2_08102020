@@ -16,9 +16,10 @@ a:link
 	text-decoration:none; 
 } 
             
-h1
-{
-	padding-bottom: 20px;
+h1 {
+    padding-bottom: 20px;
+    padding-top: 30px;
+	font-size: 20px;
 }
 
 h2
@@ -225,10 +226,10 @@ header
 
 .appart 
 {
-	margin-left: 50px;
+	margin-left: 40px;
 	padding-top: 30px;
     padding-bottom: 30px;
-
+	font-size: 20px;
 }
 .liste_habitations
 {
@@ -340,10 +341,10 @@ aside
 
 .titre_aside
 {
-	padding: 40px;
+	padding: 30px;
     display: flex;
     justify-content: space-between;
-    font-size: x-large;
+    font-size: 20px;
 }
 
 .detail_populaire
@@ -405,6 +406,7 @@ aside
 {
 	margin-top: 30px;
 	padding-left: 35px;
+	font-size: 20px;
 }
 
 .conteneur_activite
