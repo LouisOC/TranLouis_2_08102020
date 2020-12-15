@@ -74,18 +74,18 @@ nav li
 
 .liste_hebergements
 {
-	style="color: #0065FC
+	color: #0065FC
 }
 
 .liste_inscrire
 {
-	style="color: #0065FC; 
-	font-weight: bold;"
+	color: #0065FC; 
+	font-weight: bold;
 }
 
 #hebergements
 {
-	style="color: #0065FC;"
+	color: #0065FC;
 }
 
 header
@@ -116,7 +116,7 @@ header
 
 .input_search
 {
-	style="font-weight: bold;"
+	font-weight: bold;
 	height: 100%;
 	border-top: 1px solid #F2F2F2;
 	border-bottom: 1px solid #F2F2F2;
