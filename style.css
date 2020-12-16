@@ -313,18 +313,8 @@ aside
     font-size: 20px;
 }
 
-.detail_populaire
-{
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	padding-left: 20px;
-}
-
-
 .populaire 
 {
-	padding: 5px 5px 5px 5px;
 	border-radius: 15px ;
     background-color : white;
     margin-left: 30px;
@@ -333,6 +323,29 @@ aside
 	line-height: 2em;
 	margin-bottom: 30px;
 	box-shadow: 5px 5px 10px grey;
+}
+
+.conteneur_populaire
+{
+	display: flex;
+	padding: 5px;
+}
+
+.img_populaire
+{
+	height: 140px;
+	width: 40%;
+	object-fit: cover;
+	border-top-left-radius: 10px ;
+    border-bottom-left-radius: 10px;
+}
+
+.detail_populaire
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding-left: 10px;
 }
 
 .image_populaire
