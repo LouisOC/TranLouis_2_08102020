@@ -348,39 +348,6 @@ aside
 	padding-left: 10px;
 }
 
-.image_populaire
-{
-	background-image: url('images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg');
-	height: 130px;
-	width: 35%;
-	background-size: cover;
-	background-position: center;
-	border-top-left-radius: 10px ;
-    border-bottom-left-radius: 10px;
-}
-
-.image_populaire2
-{
-	background-image: url('images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg');
-	height: 130px;
-	width: 50%;
-	background-size: cover;
-	background-position: center;
-	border-top-left-radius: 10px ;
-    border-bottom-left-radius: 10px;
-}
-
-.image_populaire3
-{
-	background-image: url('images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg');
-	height: 130px;
-	width: 40%;
-	background-size: cover;
-	background-position: center;
-	border-top-left-radius: 10px ;
-    border-bottom-left-radius: 10px;
-}
-
 .titre_activite
 {
 	margin-top: 30px;
