@@ -15,10 +15,10 @@ a:link
 { 
 	text-decoration:none; 
 } 
-            
+
 h1 {
-    padding-bottom: 20px;
-    padding-top: 30px;
+	padding-bottom: 20px;
+	padding-top: 30px;
 	font-size: 20px;
 }
 
@@ -131,8 +131,8 @@ header
 	color: white ;
 	height: 100%;
 	border : none;
-    border-radius: 0px 10px 10px 0px;
-    padding: 10px;
+	border-radius: 0px 10px 10px 0px;
+	padding: 10px;
 	font-weight: bold;
 }
 
@@ -237,7 +237,7 @@ header
 	display: flex;
 	justify-content: space-between;
 	padding-left: 20px;
-    padding-right: 20px;
+	padding-right: 20px;
 }
 
 .conteneur_hebergement_habitation
@@ -251,7 +251,7 @@ header
 {
 	margin-left: 40px;
 	padding-top: 30px;
-    padding-bottom: 30px;
+	padding-bottom: 30px;
 	font-size: 20px;
 }
 .liste_habitations
@@ -269,7 +269,7 @@ header
 	margin-bottom: 30px;
 	width: 25%;
 	box-shadow: 5px 5px 10px grey;
-
+	
 }
 
 .img_hebergement
@@ -308,16 +308,16 @@ aside
 .titre_aside
 {
 	padding: 30px;
-    display: flex;
-    justify-content: space-between;
-    font-size: 20px;
+	display: flex;
+	justify-content: space-between;
+	font-size: 20px;
 }
 
 .populaire 
 {
 	border-radius: 15px ;
-    background-color : white;
-    margin-left: 30px;
+	background-color : white;
+	margin-left: 30px;
 	margin-right: 40px;
 	display: flex;
 	line-height: 2em;
@@ -337,7 +337,7 @@ aside
 	width: 40%;
 	object-fit: cover;
 	border-top-left-radius: 10px ;
-    border-bottom-left-radius: 10px;
+	border-bottom-left-radius: 10px;
 }
 
 .detail_populaire
@@ -364,16 +364,14 @@ aside
 
 .conteneur_detail_activite
 {
-	width: 60%;
+	width: 50%;
 	display: flex;
 	flex-direction: column;
 }
 
 .conteneur_detail_activite_bloc
 {
-	width: 40%;
-	display: flex;
-	flex-direction: column;
+	width: 50%;
 	padding-left: 30px;
 }
 
@@ -394,57 +392,77 @@ aside
 
 .image_activite
 {
-	background-size: cover;
-	background-position: center;
 	height: 100%;
-	border-top-left-radius: 20px;
-	border-top-right-radius: 20px ;
+}
+
+.img_activite
+{
+	height: 100%;
 	width: 100%;
+	object-fit: cover;
+	border-top-left-radius: 10px ;
+	border-top-right-radius: 10px;
 }
 
-.image_activite_vieux_port
+
+
+.img_activite2
 {
-	background-image: url('images/activites/2_large/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg') ;
+	height: 225px;
+	width: 100%;
+	object-fit: cover;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	
 }
 
-.image_activite_fort
+.image_activite3
 {
-	background-image: url('images/activites/2_large/paul-hermann-QFTrLdQIRhI-unsplash.jpg') ;
+	margin-top: 55px;
+}
+.img_activite3
+{
+	height: 150px;
+	width: 100%;
+	object-fit: cover;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	
+}
+
+.img_activite4
+{
+	height: 200px;
+	width: 100%;
+	object-fit: cover;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	
+}
+
+.img_activite5
+{
+	height: 200px;
+	width: 100%;
+	object-fit: cover;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	
+}
+
+.image_activite5
+{
+	margin-top: 30px;
 }
 
 .carte_activite
 {
 	height: 50%;
-    display: flex;
+	display: flex;
 	flex-direction: column;
 	justify-content: flex-end;
 }
 
-.carte_activite_petite
-{
-	margin-bottom: 40px;
-}
-
-.image_activite_frioul
-{
-	background-image: url('images/activites/2_large/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg') ;
-	height: 60%;
-}
-
-.image_activite_calanques
-{
-	background-image: url('images/activites/2_large/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg') ;
-}
-
-.image_activite_garde
-{
-	background-image: url('images/activites/2_large/florian-wehde-xW9e8gdotxI-unsplash.jpg') ;
-}
-
-.image_activite_longchamp
-{
-	background-image: url('images/activites/2_large/lena-paulin-wH2-EJoDcV0-unsplash.jpg') ;
-}
 .detail_activite 
 {
 	box-shadow: #F2F2F2 5px 5px 5px;
@@ -452,7 +470,7 @@ aside
 	padding-top: 10px;
 	padding-bottom: 10px;
 	padding-left: 20px;
-	}
+}
 
 footer
 {
@@ -479,15 +497,15 @@ footer
 	{
 		flex-direction: column-reverse;
 		padding-left: 0;
-    	padding-right: 0;
+		padding-right: 0;
 	}
-
+	
 	aside
 	{
 		width: 100%;
 		border-radius: 0px;
 	}
-
+	
 	.conteneur_hebergement_habitation
 	{
 		min-width: 100%;
@@ -497,8 +515,9 @@ footer
 	.conteneur_activite
 	{
 		flex-direction: column;
+		margin-bottom: 20px;
 	}
-
+	
 	.liste_activite
 	{
 		width: 100%;
@@ -506,7 +525,7 @@ footer
 		align-items: center;
 		padding: 0;
 	}
-
+	
 	.image_populaire
 	{
 		width: 50%;
@@ -519,34 +538,61 @@ footer
 	{
 		width: 50%;
 	}
-
-	.image_activite
-	{
-		min-height: 200px;
-	}
-
+	
 	.conteneur_detail_activite
 	{
-		width: 90%;
-		padding-bottom: 20px;
+		width: 95%;
 	}
-
+	
 	.conteneur_detail_activite_bloc
 	{
-		width: 90%;
+		width: 95%;
 		padding: 0;
 	}
+	
+	.img_activite
+	{
+		height: 150px;
+	}
+	
+	.img_activite2
+	{
+		height: 150px;
+	}
+	
+	.image_activite3
+	{
+		margin-top :0px; 
+	}
+	
+	.img_activite4
+	{
+		height: 150px;
+	}
+	
+	.img_activite5
+	{
+		height: 150px;
+	}
+	
+	.detail_activite
+	{
+		padding-top: 20px;
+		padding-bottom: 20px;
+		margin-bottom: 20px;
+	}
+	
 }
 
 @media (max-width: 1024px)
 
 {
-
+	
 	header 
 	{
 		margin-bottom: 10px;
 	}
-
+	
 	.liste_activites, .liste_hebergements
 	{
 		display: none;
@@ -556,20 +602,20 @@ footer
 	{
 		padding-top: 15px;
 	}
-
+	
 	#hebergements, #activites
 	{
 		display: flex;
 		width: 50%;
 		justify-content: center;
 	}
-
+	
 	.conteneur_activite_hebergement
 	{
 		display: flex;
 		justify-content: space-around;
 	}
-
+	
 	#hebergements
 	{
 		padding-bottom: 10px;
@@ -580,46 +626,46 @@ footer
 	{
 		border-bottom: solid 3px #0065FC;
 	}
-
+	
 	#activites
 	{
 		border-bottom: solid 3px lightgrey;
 		padding-bottom: 10px;
 	}
-
+	
 	#activites:hover
 	{
 		border-bottom: solid 3px #0065FC;
 	}
 	.recherche
-
+	
 	{
 		width: 100%;
 	}
-
+	
 	.icone_map
 	{
 		min-width: 10%;
 	}
-
+	
 	.input_search
 	{
 		width: 80%;
 	}
-
+	
 	.button_search
 	{
 		width: 10%;
 		border-radius: 10px;
 		padding: 0px;
 	}
-
+	
 	.bloc_recherche
 	{
 		padding-left: 20px;
 		padding-right: 20px;
 	}
-
+	
 	#texte_recherche
 	{
 		display: none;
@@ -636,12 +682,12 @@ footer
 		flex-direction: column;	
 		align-items: flex-start;
 	}
-
+	
 	.appart
 	{
 		margin-left: 20px;
 	}
-
+	
 	.liste_habitations
 	{
 		display: flex;
@@ -649,7 +695,7 @@ footer
 		padding-left: 20px;
 		padding-right: 20px;
 	}
-
+	
 	.habitation
 	{
 		width: 95%;
@@ -658,81 +704,77 @@ footer
 		flex-direction: column;
 		margin-bottom: 20px;
 	}
-
+	
 	.conteneur_hebergement_habitation
 	{
 		min-width: 100%;
 		background-color: white;
 	}
-
+	
 	.contenu_footer
 	{
 		display: flex;
 		flex-direction: column;
 	}
-
+	
 	.afficher
 	{
 		margin-left: 20px;
 		padding-bottom: 0px;
 	}
+	
 }
 
 @media (max-width: 800px)
 {
-
+	
 	.image_populaire
 	{
 		width: 50%;
 	}
-
+	
 	.image_populaire2
 	{
 		width: 50%;
 	}
-
+	
 	.image_populaire3
 	{
 		width: 50%;
 	}	
-
+	
 	.carte_activite
 	{
 		padding-bottom: 20px;
 	}
-
+	
 	.titre_activite
 	{
 		padding-left: 20px;
 	}
-
+	
 	.conteneur_activite
 	{
 		padding-left: 0px;
 		padding-right: 0px;
 	}
-
+	
 	.carte_activite_petite
 	{
 		margin-bottom: 0px;
 	}
-	
 }
 
 @media (max-width: 440px)
 {
-	.image_populaire
+	.conteneur_detail_activite
 	{
-		width: 35%;
+		width: 90%;
 	}
-
-	.image_populaire2
+	
+	.conteneur_detail_activite_bloc
 	{
-		width: 50%;
-	}
-
-	.image_populaire3
-	{
-		width: 40%;
+		width: 90%;
+		padding: 0;
 	}
 }
