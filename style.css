@@ -83,6 +83,11 @@ nav li
 	font-weight: bold;
 }
 
+.liste_activites
+{
+	color: black;
+}
+
 #hebergements
 {
 	color: #0065FC;
@@ -145,6 +150,12 @@ header
 
 {
 	margin-top: 30px;
+}
+
+.titre_filtre
+{
+	font-size: large;
+    font-weight: bold;
 }
 
 .bouton_filtre:hover
